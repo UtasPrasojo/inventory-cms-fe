@@ -15,15 +15,15 @@ export default function LoginPage() {
         <Card className="w-full max-w-sm">
           <CardHeader>
             <CardTitle className="text-center text-2xl font-bold">
-              INICIAR SESION
+              MASUK
             </CardTitle>
           </CardHeader>
           <CardContent>
             <form className="space-y-6">
               {/* Username */}
               <div className="space-y-2">
-                <label htmlFor="username" className="sr-only">
-                  Username
+                <label htmlFor="email" className="sr-only">
+                  Email
                 </label>
                 <div className="flex items-center gap-2">
                   <User className="h-5 w-5 text-gray-400" />
@@ -39,14 +39,14 @@ export default function LoginPage() {
               {/* Password */}
               <div className="space-y-2">
                 <label htmlFor="password" className="sr-only">
-                  Password
+                  Kata Sandi
                 </label>
                 <div className="flex items-center gap-2">
                   <Lock className="h-5 w-5 text-gray-400" />
                   <Input
                     id="password"
                     type="password"
-                    placeholder="Password"
+                    placeholder="Kata Sandi"
                     className="w-full"
                   />
                 </div>
@@ -54,7 +54,7 @@ export default function LoginPage() {
 
               {/* Tombol */}
               <Button type="submit" className="w-full">
-                Ingresar
+                Masuk
               </Button>
             </form>
           </CardContent>
@@ -64,7 +64,7 @@ export default function LoginPage() {
       {/* Kanan: Gambar */}
       <div className="hidden md:flex w-1/2 bg-gradient-to-b from-blue-700 to-blue-800 justify-center items-center relative">
         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl text-white max-w-sm text-center">
-          <h2 className="text-xl font-semibold mb-4">Sistema de Inventario</h2>
+          <h2 className="text-xl font-semibold mb-4">Sistem Inventori</h2>
           <Image
             src="/woman-tablet.png" // path gambar kamu
             alt="Ilustrasi"
